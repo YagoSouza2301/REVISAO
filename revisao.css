@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Lora", serif;
+}
+
+
+/* -----------------------------------------Cabeçalho---------------------------------- */
+header  {
+    padding: 30px;
+    background-color: #403a26;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header div i {
+    color: white;
+    font-size: 50px;
+}
+header div nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+header div nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+header div nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+}
+
+/* ------------------------------------------sessão1------------------------------------ */
+#primeiro {
+    padding: 180px;
+    background-color: #81876c;
+}
+/* ----------------------------------------DIV-PAI-------------------------------------- */
+.imoveis div {
+    background-color: black;
+    width: 200px;
+    height: 300px;
+}
+.imoveis {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+/* ----------------------------------------DIV-FILHO------------------------------------ */
+.imoveis .imovel1 {
+    background-image: url(imagens/imovel\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.imoveis .imovel2 {
+    background-image: url(imagens/imovel\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.imoveis .imovel3 {
+    background-image: url(imagens/imovel\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.imoveis .imovel4 {
+    background-image: url(imagens/imovel\ 4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.imoveis .imovel5 {
+    background-image: url(imagens/imovel\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.imoveis .imovel6 {
+    background-image: url(imagens/imovel\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+/* ------------------------------------------sessão2------------------------------------ */
+#segundo {
+    padding: 180px;
+    background-image: url(imagens/fundo\ sessão\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tipo1 {
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    background-color: rgb(127, 255, 212);
+    padding: 20px;
+}
+.tipo2 {
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+
+/* ------------------------------------------sessão3------------------------------------ */
+#terceiro {
+    padding: 180px;
+    background-color: #f1f7cd;
+    display: flex;
+    justify-content: space-evenly;
+}
+#terceiro div {
+    width: 350px;
+    height: 350px;
+    background-color: #d3f7cd;
+    padding: 20px;
+}
+
+
+/* ------------------------------------------Rodapé------------------------------------ */
+footer {
+    padding: 30px;
+    background-color: #403a26;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .imagem-rodape {
+    font-size: 50px;
+    color: white;
+}
+.sociais-rodape i {
+    background-color: rgb(7, 7, 7);
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    color: white;
+}
+.sociais-rodape i:hover {
+    transition: 0.8s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.lista-rodape ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
